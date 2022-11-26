@@ -1,0 +1,16 @@
+<nav id="navbar" class="navbar navbar-dark bg-dark">
+  <ul>
+    <li *ngIf=seInicioSesion class="nav-item"><a class="nav-link scrollto active" routerLink="/inicio" >Inicio</a></li>
+    <li *ngIf=seInicioSesion class="nav-item"><a class="nav-link scrollto" routerLink="/planes/elegir-plan">Servicios</a></li>
+    <!-- <li class="nav-item"><a class="nav-link scrollto" routerLink="/inicio">Recomendaciones</a></li> -->
+    <!-- <li class="nav-item"><a class="nav-link scrollto" routerLink="/inicio">Equipo</a></li> -->
+
+    <li *ngIf=seInicioSesion class="nav-item"><a class="nav-link scrollto" routerLink="/seguridad/cambiarContra">Cambiar contraseña</a></li>
+    <li *ngIf=seInicioSesion class="nav-item"><a class="nav-link scrollto" routerLink="/seguridad/cerrarSesion">Cerrar Sesión</a></li>
+    <li *ngIf=!seInicioSesion class="nav-item"><a class="nav-link scrollto" routerLink="/seguridad/identificar">Login</a></li>
+    <li *ngIf=!seInicioSesion class="nav-item"><a class="nav-link scrollto" routerLink="/administracion/crear-usuario">Crear Usuario</a>
+    </li>
+
+  </ul>
+  <i class="bi bi-list mobile-nav-toggle"></i>
+</nav><!-- .navbar -->

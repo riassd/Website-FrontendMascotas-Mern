@@ -1,0 +1,152 @@
+<div id="about" class="about-area area-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="section-headline text-center">
+          <h2>SERVICIOS</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- single-well start-->
+      <div class="col-md-6 ">
+        <div class="well-left">
+          <div class="single-well">
+            <a href="#">
+              <img src="assets/assets/img/about/4.png" width="100%">
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- single-well end-->
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="well-middle">
+          <div class="single-well">
+            <a href="#">
+              <!--<h4 class="sec-head">CALCULADORA</h4>-->
+            </a>
+
+            <!-- calculadora-->
+            <div class="container">
+              <h2>REGISTAR MASCOTA</h2>
+              <div class="row">
+                <div class="col-xs-4">
+                  <form action="/action_page.php" class="was-validated">
+                    <div class="col-md-9">
+                      <label for="uname" class="form-label">USUARIO</label>
+                      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname"
+                        required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Por favor ingrese su usuario</div>
+                    </div>
+                    <div class="col-md-9">
+                      <label for="uname" class="form-label">NOMBRE DE LA MASCOTA</label>
+                      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname"
+                        required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Por favor ingrese el nombre de su mascota</div>
+                    </div>
+                    <div class="col-md-9">
+                      <label for="uname" class="form-label">RAZA</label>
+                      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname"
+                        required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Por favor ingrese la raza</div>
+                    </div>
+                    <div class="col-md-9">
+                      <label for="uname" class="form-label">EDAD</label>
+                      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname"
+                        required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Por favor ingrese la edad</div>
+                    </div>
+
+
+                    <div class="col-md-9">
+                      <label for="pwd" class="form-label">CONTRASEÑA</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd"
+                        required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Por favor ingrese su contraseña.</div>
+                    </div>
+                    <br>
+                    <select class="form-select" class="col-md-9">
+                      <option>PLAN BASICO</option>
+                      <option>PLAN ESTANDAR</option>
+                      <option>PLAN PREMIUM</option>
+                    </select>
+                    <br>
+                    <br>
+                    <div class="col-md-9">
+                      <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+                      <label class="form-check-label" for="myCheck">Acepto terminos y condiciones.</label>
+                      <div class="valid-feedback">Valid.</div>
+                      <br>
+                      <div class="invalid-feedback">Por favor acepte terminos y condiciones.</div>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+
+                  </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- calculadora -->
+      <div class="container">
+        <h2 class="text-center">CALCULADORA</h2>
+        <div class="row">
+          <div class="col-xs-12">
+            <form id="formulario">
+              <!-- questionario -->
+              <label for="raza">RAZA de tu perro:</label>
+              <input type="text" class="form-control" id="raza">
+
+              <label for="edad">EDAD de tu perro (meses):</label>
+              <input type="text" class="form-control" id="edad" required="required">
+
+              <label for="peso">PESO actual (kg):</label>
+              <input type="text" class="form-control" id="peso" required="required">
+
+              <button type="submit" id="btnGuardar" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#myModal">Calcular</button>
+            </form>
+
+          </div>
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">RESULTADO</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <p id="info">Por el momento se encuentra fuera de servicio </p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" style="background-color:#403ed5; border-color: #403ed5;" class="btn btn-danger"
+                    data-bs-dismiss="modal">CERRAR</button>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- The Modal -->
+      </div>
+      <script type="text/javascript" src="assets/assets/js/script.js"></script>
